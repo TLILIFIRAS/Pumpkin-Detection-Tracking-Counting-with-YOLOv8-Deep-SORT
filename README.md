@@ -32,6 +32,7 @@ python pumpkin_deepsort_optimized.py
 - **Bounding Boxes**: Accurately highlight each detected pumpkin.
 - **Pumpkin ID**: Consistently labeled across frames.
 - **Overlay**: Displays FPS and number of unique pumpkins detected.
+  
 ![Example](demo.png)
 
 ---
