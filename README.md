@@ -1,7 +1,7 @@
 
 # 🎃 Pumpkin Detection, Tracking & Counting with YOLOv12 + Deep SORT
 
-This project uses **YOLOv12** for real-time pumpkin detection and **Deep SORT** for object tracking to assign **unique IDs** to each pumpkin and track them across frames in a video of a pumpkin field.
+This project uses **YOLOv8** for real-time pumpkin detection and **Deep SORT** for object tracking to assign **unique IDs** to each pumpkin and track them across frames in a video of a pumpkin field.
 
 ## 🧰 Requirements
 
@@ -15,7 +15,7 @@ pip install ultralytics opencv-python deep_sort_realtime
 
 ## 📦 Usage
 
-1. Place your **YOLOv12 model** as `pumpkin_yolov12.pt` in the project folder.
+1. Place your **YOLOv8 model** as `pumpkin_yolov8.pt` in the project folder.
 2. Place your input **video** as `pumpkin_field_video.mp4`.
 3. Run the script:
 
@@ -32,6 +32,7 @@ python pumpkin_deepsort_optimized.py
 - **Bounding Boxes**: Accurately highlight each detected pumpkin.
 - **Pumpkin ID**: Consistently labeled across frames.
 - **Overlay**: Displays FPS and number of unique pumpkins detected.
+![Example](demo.png)
 
 ---
 
@@ -48,7 +49,7 @@ python pumpkin_deepsort_optimized.py
 
 ## 📌 Notes
 
-- This project assumes you’ve trained a YOLOv12 model on pumpkins.
+- This project assumes you’ve trained a YOLOv8 model on pumpkins.
 - It works best on well-lit, high-resolution field videos.
 - Frame skipping or resizing can boost FPS for slower systems.
 
